@@ -1,0 +1,82 @@
+.header-ukraine {
+    background: linear-gradient(135deg, #005bbb 50%, #ffd700 50%); /* Диагональный градиент */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-ukraine .nav-link {
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header-ukraine .nav-link:hover {
+    color: #ffd700;
+}
+
+.header-ukraine .btn-outline-primary {
+    border: none;
+    color: #003f7f;
+    transition: background-color 0.7s ease, color 0.3s ease;
+}
+
+.header-ukraine .btn-outline-primary:hover {
+    background-color: #003f7f;
+    color: #fff
+}
+
+.header-ukraine .btn-primary {
+    background-color: #005bbb;
+    border: none;
+    transition: background-color 0.7s ease;
+}
+
+.header-ukraine .btn-primary:hover {
+    background-color: #003f7f;
+}
+
+.header-ukraine .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-ukraine .form-inline {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-ukraine .btn-container {
+    margin-right: 15px;
+}
+
+.footer-ukraine {
+    background: linear-gradient(135deg, #005bbb 50%, #ffd700 50%); /* Диагональный градиент, как в шапке */
+    color: #fff;
+    border-top: 2px solid #003f7f; /* Та же граница, что и у шапки */
+}
+
+.footer-ukraine .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-ukraine p {
+    margin: 0;
+}
+
+.footer-ukraine .footer-link {
+    color: #ffd700; /* Цвет ссылок в футере */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-ukraine .footer-link:hover,
+.footer-ukraine .footer-link2:hover {
+    color: #fff;
+}
+
+.footer-ukraine .footer-link2 {
+    color: #003f7f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
